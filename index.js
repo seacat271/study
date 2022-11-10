@@ -9,5 +9,5 @@ let uniqeSecond = uniqe(second);
 // let mix = 
 
 let uniqeNum = [...new Set(first), ...new Set(second)].filter((item, index, array)=> array.indexOf(item) === array.lastIndexOf(item)).sort((a, b)=>a-b);
-console.log([...new Set(first), ...new Set(second)])
+// console.log([...new Set(first), ...new Set(second)])
 console.log(uniqeNum)
